@@ -6,7 +6,7 @@ from tkinter import filedialog
 
 client = socket(AF_INET, SOCK_STREAM)
 
-ip = "10.100.4.197"
+ip = "192.168.148.246"
 port = 6666
 
 client.connect((ip, port))
