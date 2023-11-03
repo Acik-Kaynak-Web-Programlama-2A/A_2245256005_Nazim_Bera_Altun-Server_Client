@@ -25,7 +25,7 @@ mesaj_giris.grid(row=1,column=0,
                  padx=10,pady=10,
                  )
 
-mesaj_giris.focus() # hedef belirtme
+mesaj_giris.focus() 
 mesaj_giris.selection_range(0, END)
 
 def mesaj_gonder():
